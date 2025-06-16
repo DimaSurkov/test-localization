@@ -4,5 +4,8 @@
   },
   "key2": {
     "message": "Another key!"
+  },
+  "key3": {
+    "message": "Awesome 3rd key"
   }
 }
