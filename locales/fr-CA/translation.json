@@ -4,11 +4,5 @@
   },
   "key2": {
     "message": "Une autre clé !"
-  },
-  "key3": {
-    "message": "3ème clé !"
-  },
-  "key4": {
-    "message": "4ème clé !"
   }
 }
