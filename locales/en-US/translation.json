@@ -7,5 +7,8 @@
   },
   "key3": {
     "message": "This is a test message."
+  },
+  "key4": {
+    "message": "This is a test message2."
   }
 }
