@@ -1,21 +1,25 @@
 phrase:
   project_id: 8c5c54fe978485a855aa71ccacc4a373
   file_format: json
+  format_options:
+    json:
+      indent: 2                  # match your code style (2 or 4)
+      sort: true                 # ensures consistent key order
+      add_final_newline: true    # or false, match your style
+      escape_unicode: false
 
   push:
     sources:
-    - file: ./locales/<locale_code>/translation.json
-      params:
-        update_translations: true
-        autotranslate: true
-        file_encoding: "UTF-8"
-        
+      - file: ./locales/<locale_code>/translation.json
+        params:
+          update_translations: true
+          autotranslate: true
+          file_encoding: "UTF-8"
 
   pull:
     targets:
-    - file: ./locales/<locale_code>/translation.json
-      params:
-        include_empty_translations: true
-        include_translated_keys: true
-        include_unverified_translations: true
-      
+      - file: ./locales/<locale_code>/translation.json
+        params:
+          include_empty_translations: true
+          include_translated_keys: true
+          include_unverified_translations: true
