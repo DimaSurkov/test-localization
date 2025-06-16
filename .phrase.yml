@@ -5,7 +5,16 @@ phrase:
   push:
     sources:
     - file: ./locales/<locale_code>/translation.json
+      params:
+        update_translations: true
+        autotranslate: true
+        
 
   pull:
     targets:
     - file: ./locales/<locale_code>/translation.json
+      params:
+        include_empty_translations: true
+        include_translated_keys: true
+        include_unverified_translations: true
+      
