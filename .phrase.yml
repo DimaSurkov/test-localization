@@ -1,0 +1,11 @@
+phrase:
+  project_id: 8c5c54fe978485a855aa71ccacc4a373
+  file_format: json
+
+  push:
+    sources:
+    - file: ./locales/<locale_code>/translation.json
+
+  pull:
+    targets:
+    - file: ./locales/<locale_code>/translation.json
