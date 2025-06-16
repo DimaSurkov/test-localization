@@ -1,1 +1,8 @@
-{}
+{
+  "key1": {
+    "message": "Bonjour le monde!"
+  },
+  "key2": {
+    "message": "Une autre clé !"
+  }
+}
