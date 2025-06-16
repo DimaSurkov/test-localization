@@ -4,5 +4,8 @@
   },
   "key2": {
     "message": "Une autre clé !"
+  },
+  "key3": {
+    "message": "Ceci est un message de test."
   }
 }
