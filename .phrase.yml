@@ -8,6 +8,7 @@ phrase:
       params:
         update_translations: true
         autotranslate: true
+        file_encoding: "UTF-8"
         
 
   pull:
